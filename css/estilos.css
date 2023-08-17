@@ -1,0 +1,990 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:none;
+}
+
+body{
+
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    height: 160px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 20px hsla(0,0%,50.2%,.25);
+    z-index: 999;
+    flex-direction: column;
+
+}
+
+
+.contenedorNav {
+
+    height: 100px;
+    width: 80%;
+    /* position: fixed; */
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+.navCategorias{
+    height: 60px;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.nCategoria{
+    flex: 1;
+    /* min-width: 15%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-right: 1px solid gray;
+    
+
+}
+
+.ulti{
+
+    border-right:none;
+}
+.estilosBuscador {
+    border: 1px solid #279d2e;
+    height: 45px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buscador{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    border: none;
+    margin-left: 6%;
+    outline:none;
+}
+
+
+
+.lupa {
+    width: 23px;
+    height: 23px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: none;
+    object-fit: contain;
+    background-image: url(https://baproar.vtexassets.com/assets/vtex/assets-builder/baproar.bapro-store-theme/2.0.39/header/search-mobile___032b550….png);
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 14px;
+}
+
+
+.logo {
+    width: 125px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.imgLogo{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/logo.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.carrito {
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.imgCarrito{
+    height: 40px;
+    width: 39px;
+    background-image: url(https://baproar.vtexassets.com/assets/vtex/assets-builder/baproar.bapro-store-theme/2.0.39/header/shape___73e8a9752f4f025cafacb309f4fb1235.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    
+}
+
+.productos {
+    height: 540px;
+    width: 100%;
+    background: linear-gradient(75.32deg, rgb(18, 154, 163) 23.22%, rgb(79, 204, 91) 133.74%);
+    display: flex;
+    align-content: flex-end;
+    /* align-items: flex-end; */
+    flex-direction: column;
+    margin-top: 160px;
+    position: relative;
+}
+
+
+.tarjetas {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+}
+
+
+.tecnologia{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-content: center;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem;
+}
+
+.tarjeta{
+ 
+    height: 381px;
+    min-width: 250px;
+    
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoTarjeta{
+    margin-left: 10%;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: self-end;
+    font-weight: 500;
+    font-size: 1.625rem;
+    color: white;
+}
+
+.imgTarjeta{
+    width: 85%;
+    height: 60%;
+    background-image: url(../img/celular.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgNombre{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    color: #3c3c3b;
+    font-weight: 500;
+}
+
+.imgPrecio{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    color: #279d2e;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.categorias{
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contenedorCategorias{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    gap: 1rem;
+}
+
+.tarjetaCategoria{
+    min-width: 250px;
+    height: 200px;
+    background-color: red;
+    overflow: hidden;
+    border-radius: 20px;
+    
+ 
+}
+
+.textoCategoria{
+    height: 30px;
+    width: 160px;
+    background-color: white;
+    position: absolute;
+    border-top-left-radius: 17px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgCategoria{
+
+   height: 100%;
+   width: 100%; 
+   background-image: url(../img/tablets.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+
+.masProductos{
+
+    height: 400px;
+    width: 100%; 
+    background-color: #f5f5f5;
+}
+
+
+.izquierda{
+
+    height: 70px;
+    width: 40px;
+    background-color: #0000003d;
+    position: absolute;
+    top: 45%;
+    left: 8%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+  
+
+}
+
+.imgIzquierda{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    background-image: url("../img/izquierda.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.derecha{
+
+    height: 70px;
+    width: 40px;
+    background-color: #00000063;
+    position: absolute;
+    top: 45%;
+    right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imgDerecha{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    background-image: url("../img/derecha.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.izquierda1{
+
+    height: 70px;
+    width: 40px;
+    background-color: #0000003d;
+    position: absolute;
+    top: 45%;
+    left: 8%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 979;
+
+  
+
+}
+
+.imgIzquierda1{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    background-image: url("../img/izquierda.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.derecha1{
+
+    height: 70px;
+    width: 40px;
+    background-color: #00000063;
+    position: absolute;
+    top: 45%;
+    right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 979;
+}
+
+
+.imgDerecha1{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    background-image: url("../img/derecha.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.tarjetas::-webkit-scrollbar{
+    display: none;
+}
+
+.contenedorCategorias::-webkit-scrollbar{
+    display: none;
+}
+
+.tecnologia::-webkit-scrollbar{
+    display: none;
+}
+
+
+.masProductos{
+    height: 540px;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    align-content: flex-end;
+    /* align-items: flex-end; */
+    flex-direction: column;
+  
+    position: relative;
+}
+
+
+
+
+.colorNuevo{
+    color: black;
+}
+
+
+
+@media (max-width: 1250px) {
+    .nav {
+        padding: 10px;
+    }
+    .contenedorNav {
+        height: 160px;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        position: relative;
+    }
+  
+    .imgLogo {
+        height: 60px;
+        width: 80px;
+    }
+
+    .estilosBuscador {
+        width: 100%;
+    }
+    .carrito {
+        display:initial ;
+    }
+    .imgCarrito {
+        height: 40px;
+        width: 40px;
+        margin-top: 4px;
+    }
+    .navCategorias {
+        display: none;
+    }
+    }
+
+    @media (max-width: 900px) {
+        .productos {
+            height: 440px;
+
+        }
+        .masProductos {
+            height: 440px;
+        }
+        .tarjeta {
+            height: 280px;
+            min-width: 190px;
+        }
+        .categorias {
+         
+            height: 250px;
+
+        }
+        .contenedorCategorias {
+            height: 200px;
+        }
+        .tarjetaCategoria {
+            min-width: 190px;
+            height: 170px;
+            background-color: red;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        }
+
+
+        @media (max-width: 590px) {
+
+
+            .productos {
+                height: 320px;
+                width: 100%;
+                background: linear-gradient(75.32deg, rgb(18, 154, 163) 23.22%, rgb(79, 204, 91) 133.74%);
+                display: flex;
+                align-content: flex-end;
+                /* align-items: flex-end; */
+                flex-direction: column;
+                margin-top: 160px;
+                position: relative;
+            }
+            .textoTarjeta {
+                margin-left: 3%;
+                width: 90%;
+                height: 20%;
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+                font-size: 1.3rem;
+             
+            }
+            .tarjetas {
+                margin-left: 2%;
+                margin-right: 2%;
+                width: 100%;
+                height: 75%;
+                display: flex;
+                gap: 0.5rem;
+                align-content: center;
+                align-items: center;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+            }
+
+            .tarjeta {
+                height: 240px;
+                min-width: 150px;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            .masProductos {
+                height: 320px;
+                width: 100%;
+                background-color: #f5f5f5;
+                display: flex;
+                align-content: flex-end;
+                /* align-items: flex-end; */
+                flex-direction: column;
+                position: relative;
+                padding-bottom: 20px;
+            }
+
+
+            .textoTarjeta {
+                margin-left: 3%;
+                width: 90%;
+                height: 20%;
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+                font-size: 1.3rem;
+            }
+
+            .tecnologia {
+                margin-left: 2%;
+                width: 100%;
+                height: 80%;
+                display: flex;
+                /* justify-content: space-between; */
+                align-content: center;
+                align-items: center;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+                gap: 0.5rem;
+            }
+
+
+
+
+
+
+            .contenedorCategorias {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                position: relative;
+                overflow-x: scroll;
+                scroll-behavior: smooth;
+                gap: 0.5rem;
+                margin-left: 2%;
+            }
+            .tarjetaCategoria {
+                min-width: 150px;
+                height: 170px;
+                background-color: red;
+                overflow: hidden;
+                border-radius: 20px;
+            }
+
+            .textoCategoria {
+                height: 30px;
+                width: 120px;
+                background-color: white;
+                position: absolute;
+                border-top-left-radius: 17px;
+                border-bottom-right-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.7rem;
+            }
+
+            .izquierda{
+                display: none;
+
+            }
+            .derecha{
+                display: none;
+            }
+            .izquierda1{
+                display: none;
+
+            }
+            .derecha1{
+                display: none;
+            }
+
+            }
+
+
+
+
+
+    .contProducto{
+        height: 700px;
+        margin-top: 160px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .producto{
+    height:100%;
+    width:80%;
+    
+    display: flex;
+    }
+
+
+    .imgsProducto{
+        height: 100%;
+        width: 10%;
+   
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgProdcuto{
+        height: 100%;
+        width: 60%;
+        display: flex;
+        /* align-items: center; */
+        justify-content: flex-end;
+    }
+
+    .detallesProducto{
+        height:100%;
+        width: 30%;
+    }
+
+    .imgMuestra{
+        margin-top: 20px;
+        min-width: 115px;
+        height: 120px;
+        border: 1px solid rgb(39, 157, 46);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contImg{
+        width: 95%;
+        height: 60%;
+        background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .contImgProducto{
+        width: 95%;
+        height: 56%;
+        /* object-fit: contain; */
+        background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+    .marca{
+        color: #0cb9c2;
+        font-size: 1rem;
+        font-weight: 400;
+        text-decoration: none;
+        line-height: 28px;
+        margin-top: 12px;
+    }
+    
+
+    .titulo{
+        height: 10%;
+        font-weight: 500;
+        font-size: 1.688rem;
+        line-height: 36px;
+        color: #3c3c3b;
+        display: contents;
+    }
+
+    .vendidoPor{
+        font-size: 16px;
+    line-height: 36px;
+    color: #3c3c3b;
+    }
+    .precio{
+        height: 10%;
+        /* background-color: rgb(65, 5, 5); */
+        margin-top: 20px;
+        font-size: 2.81rem;
+        font-weight: 700;
+        line-height: 56px;
+        color: #279d2e;
+    }
+
+
+    .azul{
+        color: #3fa7e0;
+        text-decoration: none;
+    }
+
+    .oferta{
+        display: flex;
+    white-space: pre;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    color: #000;
+    }
+
+    .comprar{
+        height: 8%;
+        padding: 13px;
+        font-weight: 500;
+        text-transform: none;
+        font-size: 1.25rem;
+        background-color: rgb(39, 157, 46);
+        border-radius: 5px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: none;
+        font-size: 1.25rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+    }
+
+    .aCarrito{
+        height: 8%;
+        padding: 13px ;
+        font-weight: 500;
+        text-transform: none;
+        font-size: 1.25rem;
+        border-radius: 5px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: none;
+        font-size: 1.25rem;
+        color: rgb(39, 157, 46);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4%;
+        border: solid 1px rgb(39, 157, 46);
+    }
+
+
+
+    .contInfoTecnica{
+        display: flex;
+        /* display: contents; */
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .infoTecnica{
+        height: auto;
+        width: 60%;
+
+    }
+
+    .titTecnica{
+        height: 10%;
+        display: flex;
+        align-items: center;
+        border-bottom: solid 1px;
+        padding: 0 0 16px;
+        border-bottom: 1px solid #3c3c3b;
+        font-weight: 500;
+        color: #3c3c3b!important;
+        font-size: 1.375rem;
+        line-height: 33px;
+    }
+
+    .text{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 24px;
+        color: #3c3c3b;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+
+
+    @media (max-width: 933px) {
+
+
+        .producto {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imgsProducto {
+
+            display: none;
+        }
+        .detallesProducto {
+           
+            width: 97%;
+        }
+        .contImgProducto {
+            width: 95%;
+            height: initial;
+            /* object-fit: contain; */
+            background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .contProducto {
+             height: initial; 
+            margin-top: 160px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+        .imgProdcuto {
+            height: 300px;
+
+        }
+        .comprar {
+
+            margin-top: 7%;
+        }
+
+        .aCarrito {
+
+            margin-bottom: 30px;
+        }
+        .infoTecnica {
+            width: 97%;
+        }
+        .imgProdcuto {
+            height: 300px;
+            min-width: 400px;
+            width: initial;
+        }
+        .contImgProducto {
+            width: 400px;
+            height: 300px;
+            /* object-fit: contain; */
+            background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
+            /* background-size: contain; */
+            background-repeat: no-repeat;
+        }
+    }
+
+    .contFooter{
+        width: 50%;
+        height: 100%;
+        display: flex;
+    }
+
+
+    footer{
+        width: 100%;
+        height: 400px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .colum{
+        width: 25%;
+        font-size: .813rem;
+        line-height: 20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .moreWite{
+        margin: 0;
+        font-size: .813rem;
+        font-weight: 700;
+        line-height: 28px;
+        color: #fff;
+        padding-bottom: 5px;
+    }
+    
+    .filas{
+        height: 8%;
+        width: 100%;
+        
+    }
+
+    .mB{
+        margin-bottom: 20px;
+    }
+    
+
+
+    @media (max-width: 1170px) {
+
+    footer{
+
+        height: initial;
+    }
+    .contFooter {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: initial;
+    }
+    .colum {
+        width: 100%;
+    }
+
+    .filas{
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        line-height: 20px;
+        min-width: 150px;
+    }
+    }
