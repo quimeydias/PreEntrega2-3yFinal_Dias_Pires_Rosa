@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="icon" href="img/logo.PNG">
+    <link rel="stylesheet" href="../css/estiloss.css">
+    <link rel="icon" href="../img/logo.PNG">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse</title>
+    <title>Registrate</title>
+    <meta name="description" content="Registrate">
+    <meta name="keywords" content="cuenta">
 </head>
-<body>
+<body style="height: 100vh;">
     <header class="nav">
         <div class="contenedorNav">
-        <div class="logo">
-            <p class="imgLogo"></p>
-        </div>
+            <a href="../index.html" class="logo">
+                <p class="imgLogo"></p>
+            </a>
 
         <div class="estilosBuscador">
              <input class="buscador" type="text" placeholder="Buscá productos, categorías, marcas ...">
               <button class="lupa"></button>   
         </div>
+
+        <a href="login.html" class="log">
+            <p class="imgLog"></p>
+        </a>
 
         <div class="carrito">
             <p class="imgCarrito"></p>
@@ -38,11 +44,40 @@
 
    </header>
 
-   <footer class="footer">
+   <div class="contenLogin">
 
-   
+    <div class="Login">
+        <div class="tituloLogin">
+            Registrarse
 
-   </footer>
+        </div>
+        <form action="" class="form" id="form">
+               
+            <div>
+               <label id="label1" for="input1">Usuario</label>
+               <input type="text" placeholder="" >
+            </div>
+             <div>
+               <label id="label2" for="input1">Contraseña</label>
+               <input type="password" placeholder="" >
+               <div class="ocultar"></div>
+            </div>
+             <div>
+               <label id="label3" for="input1">Repetir Contraseña</label>
+               <input type="password" placeholder="" >
+               <div class="ocultar1"></div>
+            </div>
+             <div>
+               <label id="label4" for="input1">Correo</label>
+               <input type="text" placeholder="" >
+            </div>
+           <input type="submit" value="Registrarse" style="margin-top: 20px;" >
+           <p>Si tenes una cuenta <a href="login.html">Inicia sesion</a></p>
+           
+       </form>
+    </div>
+
+</div>
    
 </body>
 </html>

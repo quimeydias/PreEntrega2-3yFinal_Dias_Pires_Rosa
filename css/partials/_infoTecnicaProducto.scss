@@ -1,0 +1,39 @@
+.contInfoTecnica{
+    display: flex;
+    /* display: contents; */
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    .infoTecnica{
+        height: auto;
+        width: 60%;
+
+        .titTecnica{
+            height: 10%;
+            display: flex;
+            align-items: center;
+            border-bottom: solid 1px;
+            padding: 0 0 16px;
+            border-bottom: 1px solid #3c3c3b;
+            font-weight: 500;
+            color: #3c3c3b!important;
+            font-size: 1.375rem;
+            line-height: 33px;
+        }
+
+        .text{
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 24px;
+            color: #3c3c3b;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+
+
+

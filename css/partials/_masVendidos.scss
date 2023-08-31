@@ -1,0 +1,145 @@
+
+
+
+.productos {
+    height: 540px;
+    width: 100%;
+    background: linear-gradient(75.32deg, rgb(18, 154, 163) 23.22%, rgb(79, 204, 91) 133.74%);
+    display: flex;
+    align-content: flex-end;
+    /* align-items: flex-end; */
+    flex-direction: column;
+    margin-top: 160px;
+    position: relative;
+
+    .izquierda{
+
+        @include flecha;
+        position: absolute;
+        top: 45%;
+        left: 8%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 800;
+     
+        .imgIzquierda{
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            background-image: url("../img/izquierda.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+      
+    
+    }
+
+    .derecha{
+
+        height: 70px;
+        width: 40px;
+        background-color: #00000063;
+        position: absolute;
+        top: 45%;
+        right: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 800;
+
+
+        .imgDerecha{
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            background-image: url("../img/derecha.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+    }
+
+    .textoTarjeta{
+        margin-left: 10%;
+        width: 90%;
+        height: 10%;
+        display: flex;
+        align-items: self-end;
+        font-weight: 500;
+        font-size: 1.625rem;
+        color: white;
+    }
+    
+
+    .tarjetas {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: 80%;
+        display: flex;
+        gap: 1rem;
+        align-content: center;
+        align-items: center;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+       
+
+        .tarjeta:hover{
+        transform: scale(1.03);
+        
+        }
+
+        .tarjeta{
+            
+            height: 381px;
+            min-width: 250px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            transition: 0.2s;
+
+
+     
+
+            .imgTarjeta{
+                width: 85%;
+                height: 60%;
+                background-image: url(../img/celular.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .imgNombre{
+                display: flex;
+                width: 100%;
+                height: 10%;
+                align-items: center;
+                justify-content: center;
+                color: #3c3c3b;
+                font-weight: 500;
+            }
+            
+            .imgPrecio{
+                display: flex;
+                width: 100%;
+                height: 10%;
+                align-items: center;
+                justify-content: center;
+                color: #279d2e;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+        }
+    
+    }
+
+}
+
+
+
+

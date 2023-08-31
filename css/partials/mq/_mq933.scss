@@ -1,0 +1,62 @@
+@media (max-width: 933px) {
+
+    .contInfoTecnica{
+        .infoTecnica {
+            width: 97%;
+        }
+    }
+
+
+
+
+    .contProducto {
+        height: initial; 
+       margin-top: 160px;
+       background-color: #fff;
+       display: flex;
+       justify-content: center;
+
+       .producto {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+        .imgsProducto {
+            display: none;
+        }
+
+        .imgProdcuto {
+            height: 300px;
+            min-width: 400px;
+            width: initial;
+            display: flex;
+            justify-content: center;
+            
+            .contImgProducto {
+                width: 95%;
+                height: initial;
+            }
+        }
+
+        .detallesProducto {
+            width: 97%;
+
+            .comprar {
+
+                margin-top: 7%;
+            }
+    
+            .aCarrito {
+    
+                margin-bottom: 30px;
+            }
+
+        }
+        }
+   }
+
+}

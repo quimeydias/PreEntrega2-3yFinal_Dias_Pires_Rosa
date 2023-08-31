@@ -1,0 +1,116 @@
+.categorias{
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+    .izquierda1{
+
+        height: 70px;
+        width: 40px;
+        background-color: #0000003d;
+        position: absolute;
+        top: 45%;
+        left: 8%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 979;
+
+        .imgIzquierda1{
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            background-image: url("../img/izquierda.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+    }
+    
+    .derecha1{
+    
+        height: 70px;
+        width: 40px;
+        background-color: #00000063;
+        position: absolute;
+        top: 45%;
+        right: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 979;
+
+        .imgDerecha1{
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            background-image: url("../img/derecha.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    
+    .contenedorCategorias{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        gap: 1rem;
+
+        .tarjetaCategoria:hover{
+        transform: scale(1.03);
+
+        }
+
+        .tarjetaCategoria{
+            min-width: 250px;
+            height: 200px;
+            background-color: red;
+            overflow: hidden;
+            border-radius: 20px;
+            transition: 0.2s;
+            
+            .textoCategoria{
+                height: 30px;
+                width: 160px;
+                background-color: white;
+                position: absolute;
+                border-top-left-radius: 17px;
+                border-bottom-right-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .imgCategoria{
+            
+               height: 100%;
+               width: 100%; 
+               background-image: url(../img/tablets.jpg);
+               background-size: cover;
+               background-repeat: no-repeat;
+            }
+         
+        }
+        
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+

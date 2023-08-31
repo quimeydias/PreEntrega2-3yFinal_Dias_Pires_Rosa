@@ -1,0 +1,93 @@
+.contenLogin{
+
+    height: 90vh;
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://baufest.com/wp-content/uploads/2021/04/side-view-of-woman-at-home-using-headphones-and-tablet-min-1200x675.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .Login{
+        height: 450px;
+        width: 450px;
+        background: linear-gradient(75.32deg, rgba(18, 154, 163, 0.81) 23.22%, rgba(79, 204, 91, 0.88) 133.74%);
+        box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.6705882353);
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .tituloLogin{
+            height: 18%;
+            font-weight: 500;
+            font-size: 1.688rem;
+            line-height: 36px;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form{
+            width: 80%;
+            margin-right: 2px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        }
+        #form h2 {
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 400;
+        }
+        #form > div{
+            width: 100%;
+            position: relative;
+            margin-top: 25px;
+        }
+        #form > div label{
+            font-size: 0.8rem;
+            position: absolute;
+            top: -18px;
+            left: 10px;
+            padding: 3px;
+            color: white;
+        }
+        #form > div input{
+            width: 98%;
+            height: 35px;
+            padding-left: 9px;
+            background-color: rgb(2 2 2 / 0%);
+            border: solid 1px black;
+            border-radius: 5px;
+        }
+        #form > div input:active,#form > div input:active:focus{
+            border: 3px solid #118c8c;
+            background-color: #fff;
+        
+        }
+        #form p{
+            text-align: center;
+            margin-top: 10px;
+            font-size: raleway;
+        }
+        #form p a{
+            color: white;
+        }
+
+        .form input[type="submit"]{
+            margin-top: 40px;
+            height: 30px;
+            width: 80%;
+            background-color: #118c8c;
+            color: #fff;
+            border-radius: 5px;
+            border: solid 1px grey;
+        }
+    }
