@@ -1,16 +1,16 @@
-footer{
+footer {
     width: 100%;
     height: 400px;
     background-color: black;
     display: flex;
     justify-content: center;
 
-    .contFooter{
+    .contFooter {
         width: 50%;
         height: 100%;
         display: flex;
 
-        .colum{
+        .colum {
             width: 25%;
             font-size: .813rem;
             line-height: 20px;
@@ -21,10 +21,10 @@ footer{
             flex-direction: column;
             justify-content: center;
 
-            .filas{
+            .filas {
                 height: 8%;
                 width: 100%;
-                
+
             }
         }
     }
@@ -32,7 +32,7 @@ footer{
 }
 
 
-.moreWite{
+.moreWite {
     margin: 0;
     font-size: .813rem;
     font-weight: 700;
@@ -42,9 +42,6 @@ footer{
 }
 
 
-.mB{
+.mB {
     margin-bottom: 20px;
 }
-
-
-

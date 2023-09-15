@@ -162,6 +162,8 @@ body {
   flex-wrap: wrap;
   border-right: 1px solid gray;
   transition: 0.2s;
+  text-decoration: none;
+  color: black;
 }
 
 .ulti {
@@ -220,6 +222,7 @@ footer .contFooter .colum .filas {
   flex-direction: column;
   margin-top: 160px;
   position: relative;
+  overflow: hidden;
 }
 .productos .izquierda {
   height: 70px;
@@ -398,6 +401,8 @@ footer .contFooter .colum .filas {
   overflow: hidden;
   border-radius: 20px;
   transition: 0.2s;
+  text-decoration: none;
+  color: black;
 }
 .categorias .contenedorCategorias .tarjetaCategoria .textoCategoria {
   height: 30px;
@@ -427,6 +432,7 @@ footer .contFooter .colum .filas {
   /* align-items: flex-end; */
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 .masProductos .izquierda1 {
   height: 70px;
@@ -729,6 +735,119 @@ footer .contFooter .colum .filas {
   margin-bottom: 50px;
 }
 
+/*verTodosLosProductos*/
+.contProductoss {
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.contProductoss .contProductoss1 {
+  width: 80%;
+  display: flex;
+}
+.contProductoss .contProductoss1 .elegirCategoria {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.contProductoss .contProductoss1 .elegirCategoria .categoriaE {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 1.625rem;
+  height: 60px;
+  overflow: hidden;
+  line-height: 30px;
+  color: #3c3c3b;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.contProductoss .contProductoss1 .elegirCategoria .Cresultados {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 13px 0 23px;
+  text-align: left;
+  font-size: 1rem;
+  color: #3c3c3b;
+  font-weight: 600;
+}
+.contProductoss .contProductoss1 .elegirCategoria .Cresultados .space {
+  width: 5px;
+}
+.contProductoss .contProductoss1 .elegirCategoria .Cresultados .letra {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: none;
+  color: #3c3c3b;
+}
+.contProductoss .contProductoss1 .elegirCategoria .EleccionItemCategoria {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 18px;
+  color: #3c3c3b;
+  text-transform: uppercase;
+  border-bottom: solid 1px grey;
+}
+.contProductoss .contProductoss1 .productosElegidos {
+  width: 80%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+.contProductoss .contProductoss1 .productosElegidos .seccionP {
+  min-height: 360px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contProductoss .contProductoss1 .productosElegidos .seccionP .tarjeta {
+  margin: 10px;
+  height: 341px;
+  min-width: 250px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  box-shadow: 0 2px 6px hsla(0, 0%, 54.9%, 0.5);
+}
+.contProductoss .contProductoss1 .productosElegidos .seccionP .tarjeta .imgTarjeta {
+  width: 85%;
+  height: 60%;
+  background-image: url(../img/celular.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contProductoss .contProductoss1 .productosElegidos .seccionP .tarjeta .imgNombre {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  color: #3c3c3b;
+  font-weight: 500;
+}
+.contProductoss .contProductoss1 .productosElegidos .seccionP .tarjeta .imgPrecio {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  color: #279d2e;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 /*login*/
 .contenLogin {
   height: 90vh;
@@ -745,8 +864,6 @@ footer .contFooter .colum .filas {
   width: 450px;
   background: linear-gradient(75.32deg, rgba(18, 154, 163, 0.81) 23.22%, rgba(79, 204, 91, 0.88) 133.74%);
   box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.6705882353);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
   border-radius: 5px;
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -798,7 +915,8 @@ footer .contFooter .colum .filas {
   border: solid 1px black;
   border-radius: 5px;
 }
-.contenLogin #form > div input:active, .contenLogin #form > div input:active:focus {
+.contenLogin #form > div input:active,
+.contenLogin #form > div input:active:focus {
   border: 3px solid #118c8c;
   background-color: #fff;
 }
@@ -858,6 +976,9 @@ footer .contFooter .colum .filas {
   .nav .navCategorias {
     display: none;
   }
+  .contProductoss .contProductoss1 {
+    width: 90%;
+  }
 }
 @media (max-width: 1170px) {
   footer {
@@ -878,6 +999,52 @@ footer .contFooter .colum .filas {
     font-size: 1rem;
     line-height: 20px;
     min-width: 150px;
+  }
+  .contProductoss .contProductoss1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .contProductoss .contProductoss1 .elegirCategoria {
+    display: flex;
+    flex-direction: column;
+    width: initial;
+  }
+  .contProductoss .contProductoss1 .productosElegidos {
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+  }
+  .contProductoss .contProductoss1 .productosElegidos .seccionP {
+    min-height: 360px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .contProductoss .contProductoss1 .productosElegidos .seccionP .tarjeta {
+    margin: initial;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    box-shadow: 0 2px 6px hsla(0, 0%, 54.9%, 0.5);
+  }
+  .contProductoss .contProductoss1 .productosElegidos .seccionP .tarjeta .imgTarjeta {
+    width: 60%;
+    height: 80%;
+    background-image: url(../img/celular.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 @media (max-width: 933px) {

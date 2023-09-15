@@ -1,0 +1,127 @@
+.contProductoss {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+
+    .contProductoss1 {
+
+        width: 80%;
+        display: flex;
+
+
+        .elegirCategoria {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+
+            .categoriaE {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                margin: 0;
+                font-size: 1.625rem;
+                height: 60px;
+                overflow: hidden;
+                line-height: 30px;
+                color: #3c3c3b;
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+
+            .Cresultados {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                padding: 13px 0 23px;
+                text-align: left;
+                font-size: 1rem;
+                color: #3c3c3b;
+                font-weight: 600;
+
+                .space {
+                    width: 5px;
+                }
+
+                .letra {
+                    font-size: 1rem;
+                    font-weight: 400;
+                    text-transform: none;
+                    color: #3c3c3b;
+                }
+            }
+
+            .EleccionItemCategoria {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+                font-size: .875rem;
+                line-height: 18px;
+                color: #3c3c3b;
+                text-transform: uppercase;
+                border-bottom: solid 1px grey;
+            }
+        }
+
+        .productosElegidos {
+            width: 80%;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+
+            .seccionP {
+                min-height: 360px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+
+                .tarjeta {
+                    margin: 10px;
+                    height: 341px;
+                    min-width: 250px;
+                    background-color: white;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.2s;
+                    box-shadow: 0 2px 6px hsla(0, 0%, 54.9%, .5);
+
+                    .imgTarjeta {
+                        width: 85%;
+                        height: 60%;
+                        background-image: url(../img/celular.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+
+                    .imgNombre {
+                        display: flex;
+                        width: 100%;
+                        height: 10%;
+                        align-items: center;
+                        justify-content: center;
+                        color: #3c3c3b;
+                        font-weight: 500;
+                    }
+
+                    .imgPrecio {
+                        display: flex;
+                        width: 100%;
+                        height: 10%;
+                        align-items: center;
+                        justify-content: center;
+                        color: #279d2e;
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+    }
+}

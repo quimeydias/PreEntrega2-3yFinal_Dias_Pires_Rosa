@@ -1,25 +1,29 @@
-/*nav,footer,variables , mixins y keyframes*/ 
+/*nav,footer,variables , mixins y keyframes*/
 @import "./partials/reset";
 @import "./partials/mixin";
 @import "./partials/keyframes";
 @import "./partials/nav";
 @import "./partials/footer";
 
-/*index*/ 
+/*index*/
 @import "./partials/masVendidos";
 @import "./partials/categorias";
 @import "./partials/masProductos";
 @import "./partials/scrollbar";
 
-/*verProducto*/ 
+/*verProducto*/
 @import "./partials/contProducto";
 @import "./partials/infoTecnicaProducto";
 
-/*login*/ 
+/*verTodosLosProductos*/
+@import "./partials/contProductos";
+
+
+/*login*/
 @import "./partials/login";
 
 
-/*MediaQuery*/ 
+/*MediaQuery*/
 @import "./partials/mq/mq1250";
 @import "./partials/mq/mq1170";
 @import "./partials/mq/mq933";

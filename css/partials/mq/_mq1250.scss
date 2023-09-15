@@ -3,51 +3,62 @@
   .nav .contenedorNav .log .imgLog {
     margin-top: 6px;
   }
-    .nav {
-      padding: 10px;
- 
-      .contenedorNav {
-        height: 160px;
-        width: 90%;
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        position: relative;
 
-        .log {
- 
-          left: 83%;
-          display: initial;
-         
+  .nav {
+    padding: 10px;
 
-         }
+    .contenedorNav {
+      height: 160px;
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      position: relative;
 
-        .logo{
-            .imgLogo {
-                height: 60px;
-                width: 80px;
-              }
+      .log {
+
+        left: 83%;
+        display: initial;
+
+
+      }
+
+      .logo {
+        .imgLogo {
+          height: 60px;
+          width: 80px;
         }
-
-
-        .carrito{
-
-            display: initial;
-           .imgCarrito {
-               height: 40px;
-               width: 40px;
-               margin-top: 6px;
-             }
-         }
-
-        .estilosBuscador {
-            width: 100%;
-          }
-
       }
 
-      .navCategorias {
-        display: none;
+
+      .carrito {
+
+        display: initial;
+
+        .imgCarrito {
+          height: 40px;
+          width: 40px;
+          margin-top: 6px;
+        }
       }
+
+      .estilosBuscador {
+        width: 100%;
+      }
+
+    }
+
+    .navCategorias {
+      display: none;
     }
   }
+
+
+  .contProductoss{
+
+    .contProductoss1{
+
+        width: 90%;
+    }
+  }
+}

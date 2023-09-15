@@ -1,28 +1,28 @@
-.contProducto{
+.contProducto {
     height: 700px;
     margin-top: 160px;
     background-color: #fff;
     display: flex;
     justify-content: center;
 
-    .producto{
-        height:100%;
-        width:80%;
+    .producto {
+        height: 100%;
+        width: 80%;
         display: flex;
 
-        .imgsProducto{
+        .imgsProducto {
             height: 100%;
             width: 10%;
             display: flex;
             align-items: center;
             flex-direction: column;
 
-            .imgMuestra:hover{
+            .imgMuestra:hover {
 
                 border: 4px solid rgb(39, 157, 46);
             }
 
-            .imgMuestra{
+            .imgMuestra {
                 margin-top: 20px;
                 min-width: 115px;
                 height: 120px;
@@ -32,7 +32,7 @@
                 justify-content: center;
                 transition: 0.2s;
 
-                .contImg{
+                .contImg {
                     width: 95%;
                     height: 60%;
                     background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
@@ -41,28 +41,28 @@
                 }
             }
         }
-    
-        .imgProdcuto{
+
+        .imgProdcuto {
             height: 100%;
             width: 60%;
             display: flex;
             justify-content: flex-end;
 
-            .contImgProducto{
+            .contImgProducto {
                 width: 95%;
                 height: 56%;
                 background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
                 background-size: contain;
                 background-repeat: no-repeat;
             }
-        
+
         }
-    
-        .detallesProducto{
-            height:100%;
+
+        .detallesProducto {
+            height: 100%;
             width: 30%;
 
-            .marca{
+            .marca {
                 color: #0cb9c2;
                 font-size: 1rem;
                 font-weight: 400;
@@ -70,9 +70,9 @@
                 line-height: 28px;
                 margin-top: 12px;
             }
-            
-        
-            .titulo{
+
+
+            .titulo {
                 height: 10%;
                 font-weight: 500;
                 font-size: 1.688rem;
@@ -80,17 +80,19 @@
                 color: #3c3c3b;
                 display: contents;
             }
-        
-            .vendidoPor{
+
+            .vendidoPor {
                 font-size: 16px;
                 line-height: 36px;
                 color: #3c3c3b;
-                .azul{
+
+                .azul {
                     color: #3fa7e0;
                     text-decoration: none;
                 }
             }
-            .precio{
+
+            .precio {
                 height: 10%;
                 /* background-color: rgb(65, 5, 5); */
                 margin-top: 20px;
@@ -99,18 +101,18 @@
                 line-height: 56px;
                 color: #279d2e;
             }
-        
-        
-            .oferta{
+
+
+            .oferta {
                 display: flex;
-            white-space: pre;
-            font-size: 16px;
-            line-height: 20px;
-            padding: 0;
-            color: #000;
+                white-space: pre;
+                font-size: 16px;
+                line-height: 20px;
+                padding: 0;
+                color: #000;
             }
-        
-            .comprar{
+
+            .comprar {
                 height: 8%;
                 padding: 13px;
                 font-weight: 500;
@@ -131,17 +133,17 @@
                 margin-top: 20%;
             }
 
-            .comprar:hover{
+            .comprar:hover {
                 background-color: #fff;
-                color:#279d2e;
+                color: #279d2e;
                 border: solid 2px black;
 
-                
+
             }
-        
-            .aCarrito{
+
+            .aCarrito {
                 height: 8%;
-                padding: 13px ;
+                padding: 13px;
                 font-weight: 500;
                 text-transform: none;
                 font-size: 1.25rem;
@@ -160,16 +162,15 @@
                 border: solid 1px rgb(39, 157, 46);
             }
 
-            .aCarrito:hover{
+            .aCarrito:hover {
                 background-color: #279d2e;
-                color:#fff;
+                color: #fff;
                 border: solid 2px black;
 
-                
+
             }
-        
+
         }
 
     }
 }
-

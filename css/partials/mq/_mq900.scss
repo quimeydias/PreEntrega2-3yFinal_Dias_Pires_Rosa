@@ -1,9 +1,8 @@
-
 @media (max-width: 900px) {
     .productos {
         height: 440px;
 
-        .tarjetas{
+        .tarjetas {
             .tarjeta {
                 height: 280px;
                 min-width: 190px;
@@ -16,7 +15,7 @@
     .masProductos {
         height: 440px;
 
-        .tecnologia{
+        .tecnologia {
 
             .tarjeta {
                 height: 280px;
@@ -26,14 +25,14 @@
     }
 
 
-    .nav .contenedorNav .log  {
+    .nav .contenedorNav .log {
         left: 78%;
-       
-      }
- 
+
+    }
+
 
     .categorias {
-     
+
         height: 250px;
 
         .contenedorCategorias {
@@ -48,7 +47,7 @@
             }
         }
 
- 
+
 
     }
 
@@ -59,11 +58,11 @@
 
 @media (max-width: 680px) {
 
-    .nav .contenedorNav .log  {
+    .nav .contenedorNav .log {
         left: 70%;
-       
-      }
- 
+
+    }
+
 
 
 }
