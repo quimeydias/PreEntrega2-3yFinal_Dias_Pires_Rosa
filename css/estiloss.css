@@ -307,17 +307,18 @@ footer .contFooter .colum .filas {
   width: 85%;
   height: 60%;
   background-image: url(../img/celular.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .productos .tarjetas .tarjeta .imgNombre {
   display: flex;
   width: 100%;
-  height: 10%;
-  align-items: center;
-  justify-content: center;
+  height: 15%;
   color: #3c3c3b;
   font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .productos .tarjetas .tarjeta .imgPrecio {
   display: flex;
@@ -397,7 +398,6 @@ footer .contFooter .colum .filas {
 .categorias .contenedorCategorias .tarjetaCategoria {
   min-width: 250px;
   height: 200px;
-  background-color: red;
   overflow: hidden;
   border-radius: 20px;
   transition: 0.2s;
@@ -418,7 +418,6 @@ footer .contFooter .colum .filas {
 .categorias .contenedorCategorias .tarjetaCategoria .imgCategoria {
   height: 100%;
   width: 100%;
-  background-image: url(../img/tablets.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -518,17 +517,18 @@ footer .contFooter .colum .filas {
   width: 85%;
   height: 60%;
   background-image: url(../img/celular.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .masProductos .tecnologia .tarjeta .imgNombre {
   display: flex;
   width: 100%;
-  height: 10%;
-  align-items: center;
-  justify-content: center;
+  height: 15%;
   color: #3c3c3b;
   font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .masProductos .tecnologia .tarjeta .imgPrecio {
   display: flex;
@@ -587,7 +587,7 @@ footer .contFooter .colum .filas {
   transition: 0.2s;
 }
 .contProducto .producto .imgsProducto .imgMuestra .contImg {
-  width: 95%;
+  width: 60%;
   height: 60%;
   background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
   background-size: contain;
@@ -597,13 +597,15 @@ footer .contFooter .colum .filas {
   height: 100%;
   width: 60%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-content: stretch;
 }
 .contProducto .producto .imgProdcuto .contImgProducto {
-  width: 95%;
-  height: 56%;
-  background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
+  width: 60%;
+  height: 66%;
   background-size: contain;
+  /* padding-left: 40px; */
+  /* margin-left: 20px; */
   background-repeat: no-repeat;
 }
 .contProducto .producto .detallesProducto {
@@ -1077,7 +1079,7 @@ footer .contFooter .colum .filas {
     justify-content: center;
   }
   .contProducto .producto .imgProdcuto .contImgProducto {
-    width: 95%;
+    width: 85%;
     height: initial;
   }
   .contProducto .producto .detallesProducto {
@@ -1117,7 +1119,6 @@ footer .contFooter .colum .filas {
   .categorias .contenedorCategorias .tarjetaCategoria {
     min-width: 190px;
     height: 170px;
-    background-color: red;
     overflow: hidden;
     border-radius: 20px;
   }
@@ -1252,7 +1253,6 @@ footer .contFooter .colum .filas {
   .categorias .contenedorCategorias .tarjetaCategoria {
     min-width: 150px;
     height: 170px;
-    background-color: red;
     overflow: hidden;
     border-radius: 20px;
   }

@@ -33,7 +33,7 @@
                 transition: 0.2s;
 
                 .contImg {
-                    width: 95%;
+                    width: 60%;
                     height: 60%;
                     background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
                     background-size: contain;
@@ -46,13 +46,16 @@
             height: 100%;
             width: 60%;
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
+            align-content: stretch;
+        
 
             .contImgProducto {
-                width: 95%;
-                height: 56%;
-                background-image: url(https://baproar.vtexassets.com/arquivos/ids/309827-800-auto?v=638209837964000000&width=800&height=auto&aspect=true);
+                width: 60%;
+                height: 66%;
                 background-size: contain;
+                /* padding-left: 40px; */
+                /* margin-left: 20px; */
                 background-repeat: no-repeat;
             }
 
