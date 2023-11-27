@@ -6,7 +6,7 @@
         link = "../json/";
     }
 
-fetch(link+'json/productos.json')
+fetch(link+'productos.json')
     .then(response => response.json())
     .then(data => {
         // Limpiar la lista de productos y llenarla con los datos obtenidos
