@@ -1,4 +1,5 @@
 // Realizar una solicitud fetch para obtener los datos del archivo productos.json
+ URLactual = window.location.href;
     if (URLactual.includes("index.html")) {
         link = "json/";
     } else {
