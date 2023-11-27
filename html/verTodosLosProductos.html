@@ -12,37 +12,38 @@
 <body>
     <nav class="nav">
         <div class="contenedorNav">
-            <a href="../index.html" class="logo">
-                <p class="imgLogo"></p>
+            <a class="logo" href="../index.html">
+                <p class="imgLogo">
+                    <p>
             </a>
 
             <div class="estilosBuscador">
-                <input class="buscador" type="text" placeholder="Buscá productos, categorías, marcas ...">
-                <button class="lupa"></button>
+                <form action="verTodosLosProductos.html" method="get">
+                    <input class="buscador" name="buscar" type="text"
+                        placeholder="Buscá productos, categorías, marcas ..." required>
+                    <button class="lupa"></button>
+                </form>
+
+                <div class="seleccionados" id="seleccionados">
+                    <div class="seccionP" id="seccionP"></div>
+                </div>
+
+
             </div>
 
             <a href="login.html" class="log">
                 <p class="imgLog"></p>
             </a>
 
-            <div class="carrito">
-                <p class="imgCarrito"></p>
-            </div>
+            <a href="carrito.html" class="carrito">
+                <div class="imgCarrito">
+                    <div id="numeroProductos"></div>
+                </div>
+            </a>
 
 
         </div>
 
-        <div class="navCategorias">
-
-            <a href="verTodosLosProductos.html" class="nCategoria">Tecnología</a>
-            <a href="verTodosLosProductos.html" class="nCategoria">Electro hogar</a>
-            <a href="verTodosLosProductos.html" class="nCategoria">Juguetería y Bebés</a>
-            <a href="verTodosLosProductos.html" class="nCategoria">Moda</a>
-            <a href="verTodosLosProductos.html" class="nCategoria">Hogar y deco</a>
-            <a href="verTodosLosProductos.html" class="nCategoria">Deportes y hobbies</a>
-            <a href="verTodosLosProductos.html" class="nCategoria ulti">Salud y Belleza</a>
-
-        </div>
 
     </nav>
 
@@ -68,8 +69,8 @@
 
 
             <div class="productosElegidos">
-                <div class="seccionP" id="seccionP">
-                   
+                <div class="seccionP1" id="seccionP1">
+
 
                 </div>
 
@@ -114,6 +115,9 @@
     </footer>
 
 </body>
-<script src="../js/productos.js"></script>
+
 <script src="../js/verTProducto.js"></script>
+<script src="../js/buscadorProductos.js"></script>
+<script src="../js/nav.js"></script>
+
 </html>

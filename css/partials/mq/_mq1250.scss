@@ -6,7 +6,8 @@
 
   .nav {
     padding: 10px;
-
+    height: 140px;
+    
     .contenedorNav {
       height: 160px;
       width: 90%;
@@ -19,11 +20,14 @@
 
         left: 83%;
         display: initial;
-
+        height: initial;
+        top: 0;
 
       }
 
       .logo {
+        height: initial;
+        top: 0;
         .imgLogo {
           height: 60px;
           width: 80px;
@@ -34,6 +38,8 @@
       .carrito {
 
         display: initial;
+        height: initial;
+        top: 0;
 
         .imgCarrito {
           height: 40px;
@@ -44,6 +50,12 @@
 
       .estilosBuscador {
         width: 100%;
+
+        .seleccionados {
+          top: 105%;
+          width: 100%;
+          
+        }
       }
 
     }
@@ -61,4 +73,31 @@
         width: 90%;
     }
   }
+
+
+  .productos {
+    margin-top: 140px;
+
+  }
+
+  .contProductoss {
+    margin-top: 140px;
+  } 
+
+  .contProducto {
+    margin-top: 140px;
+  }
+
+  .contenLogin {
+    margin-top: 140px;
+  }
+
+  .extra{
+    height: 700px;
+  }
+  .scroll{
+    height: 800px;
+  }
 }
+
+

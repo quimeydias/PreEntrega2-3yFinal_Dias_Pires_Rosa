@@ -1,0 +1,241 @@
+[
+    {
+        "id": 1,
+        "title": "iPhone 13 Pro",
+        "price": 1099.00,
+        "description": "The iPhone 13 Pro is the latest flagship phone from Apple. It features a 6.1-inch Super Retina XDR display, Apple A15 Bionic processor, and a triple 12MP camera system. Available in various storage capacities.",
+        "category": "Electrodomesticos",
+        "subcategory": "Smartphones",
+        "image": "http://img.pccomponentes.com/articles/57/578925/1985-apple-iphone-13-pro-max-1tb-azul-alpino-libre.jpg",
+        "rating": {
+          "rate": 4.8,
+          "count": 500
+        },
+        "marca": "Apple"
+      },
+      {
+        "id": 2,
+        "title": "Samsung Galaxy S21",
+        "price": 899.00,
+        "description": "The Samsung Galaxy S21 is a high-end Android smartphone with a 6.2-inch Dynamic AMOLED 2X display, Exynos 2100 / Snapdragon 888 processor, and a triple 12MP camera setup. Available in different storage options.",
+        "category": "Electrodomesticos",
+        "subcategory": "Smartphones",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_799456-MLU72675206798_112023-O.webp",
+        "rating": {
+          "rate": 4.6,
+          "count": 420
+        },
+        "marca": "Samsung"
+      },
+      {
+        "id": 3,
+        "title": "Google Pixel 6",
+        "price": 799.00,
+        "description": "The Google Pixel 6 is a top-tier Android phone with a 6.4-inch AMOLED display, Google Tensor processor, and a dual 50MP camera system. Comes in multiple storage capacities.",
+        "category": "Electrodomesticos",
+        "subcategory": "Smartphones",
+        "image": "https://m.media-amazon.com/images/I/71QQZr2pNSL._AC_SY450_.jpg",
+        "rating": {
+          "rate": 4.7,
+          "count": 380
+        },
+        "marca": "Google"
+      },
+      {
+        "id": 4,
+        "title": "OnePlus 9",
+        "price": 749.00,
+        "description": "The OnePlus 9 is a flagship Android device with a 6.55-inch Fluid AMOLED display, Qualcomm Snapdragon 888 processor, and a triple 48MP camera arrangement. Offered in different storage options.",
+        "category": "Electrodomesticos",
+        "subcategory": "Smartphones",
+        "image": "//oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9/Arcticsky_2080a_euna.png",
+        "rating": {
+          "rate": 4.5,
+          "count": 350
+        },
+        "marca": "OnePlus"
+      },
+      {
+        "id": 5,
+        "title": "Xiaomi Mi 11",
+        "price": 699.00,
+        "description": "The Xiaomi Mi 11 is a powerful Android phone with a 6.81-inch AMOLED display, Qualcomm Snapdragon 888 processor, and a triple 108MP camera setup. Available in various storage configurations.",
+        "category": "Electrodomesticos",
+        "subcategory": "Smartphones",
+        "image": "https://stylewatch.vtexassets.com/arquivos/ids/227558/Smartphone_Xiaomi_XIMZB0BX0EU_01.jpg?v=638176965729670000",
+        "rating": {
+          "rate": 4.6,
+          "count": 310
+        },
+        "marca": "Xiaomi"
+      },
+      {
+        "id": 6,
+        "title": "Smart 4K UHD TV",
+        "price": 799.99,
+        "description": "Enjoy stunning 4K UHD resolution on this smart TV. Features built-in streaming apps, voice control, and a sleek design to elevate your home entertainment experience.",
+        "category": "Electrodomesticos",
+        "subcategory": "Televisores",
+        "image": "https://medias.musimundo.com/medias/size515-149630-01.jpg?context=bWFzdGVyfGltYWdlc3w0ODg5OHxpbWFnZS9qcGVnfGhiMy9oOTMvMTA1MDY0MjMzMzY5OTAvc2l6ZTUxNV8xNDk2MzBfMDEuanBnfDU3MDIwMGM5MWM0NTNiZWQ2ZDk3Zjc0ODRlNGI3YTlhZjJiNWY2MDlkNTc5M2M2ODFjNTFjNTJiOGM3ODMxYjc",
+        "rating": {
+          "rate": 4.9,
+          "count": 180
+        },
+        "marca": "Marca Desconocida"
+      },
+      {
+        "id": 7,
+        "title": "Robot Vacuum Cleaner",
+        "price": 249.99,
+        "description": "Make your life easier with this robotic vacuum cleaner. It features intelligent mapping, powerful suction, and a long-lasting battery. Keep your floors clean without the effort.",
+        "category": "Electrodomesticos",
+        "subcategory": "Limpieza",
+        "image": "https://images.bidcom.com.ar/resize?src=https://www.bidcom.com.ar/publicacionesML/productos/ROB00080/1000x1000-ROB00080.jpg&w=500&q=100",
+        "rating": {
+          "rate": 4.7,
+          "count": 220
+        },
+        "marca": "EcoClean"
+      },
+      {
+        "id": 8,
+        "title": "Wireless Bluetooth Headphones",
+        "price": 89.99,
+        "description": "Enjoy high-quality sound and wireless convenience with these Bluetooth headphones. They have a long battery life, comfortable fit, and noise-canceling technology.",
+        "category": "Audio",
+        "subcategory": "Auriculares",
+        "image": "https://www.megatone.net/images//Articulos/zoom2x/1/MKT0481EBX-1.jpg",
+        "rating": {
+          "rate": 4.4,
+          "count": 300
+        },
+        "marca": "SonicWave"
+      },
+      {
+        "id": 9,
+        "title": "Horno eléctrico de convección",
+        "price": 299.99,
+        "description": "Este horno eléctrico de convección te permite hornear, asar y cocinar con facilidad. Cuenta con múltiples configuraciones de temperatura y tiempo para preparar deliciosas comidas.",
+        "category": "Electrodomesticos",
+        "subcategory": "Cocina",
+        "image": "https://smartlifear.vtexassets.com/arquivos/ids/155590-800-auto?v=638128799457000000&width=800&height=auto&aspect=true",
+        "rating": {
+          "rate": 4.7,
+          "count": 120
+        },
+        "marca": "MasterChef"
+      },
+      {
+        "id": 10,
+        "title": "Heladera de doble puerta",
+        "price": 899.00,
+        "description": "Esta heladera de doble puerta proporciona un amplio espacio para tus alimentos y bebidas. Incluye estantes ajustables, cajones de frutas y verduras, y un dispensador de agua y hielo.",
+        "category": "Electrodomesticos",
+        "subcategory": "Cocina",
+        "image": "https://www.megatone.net/images/Articulos/zoom2x/35/MKT0021DEC_5.jpg",
+        "rating": {
+          "rate": 4.6,
+          "count": 200
+        },
+        "marca": "CoolFridge"
+      },
+      {
+        "id": 11,
+        "title": "Freezer vertical",
+        "price": 449.99,
+        "description": "Este freezer vertical te brinda una solución de almacenamiento adicional para tus alimentos congelados. Tiene varios compartimentos y una capacidad de congelación rápida.",
+        "category": "Electrodomesticos",
+        "subcategory": "Cocina",
+        "image": "https://whirlpoolarg.vtexassets.com/arquivos/ids/163346-800-auto?v=637934921963370000&width=800&height=auto&aspect=true",
+        "rating": {
+          "rate": 4.5,
+          "count": 150
+        },
+        "marca": "FrostMaster"
+      },
+      {
+        "id": 14,
+        "title": "Sofá de cuero",
+        "price": 799.99,
+        "description": "Este sofá de cuero genuino agrega elegancia y comodidad a tu sala de estar. Con asientos espaciosos y un diseño contemporáneo, es perfecto para relajarse o recibir invitados.",
+        "category": "Hogar",
+        "subcategory": "Muebles",
+        "image": "https://www.casadelaudio.com/Image/0/500_500-335-c.l-0571.png",
+        "rating": {
+          "rate": 4.8,
+          "count": 250
+        },
+        "marca": "LuxuryLiving"
+      },
+      {
+        "id": 15,
+        "title": "Juego de sábanas de algodón",
+        "price": 49.99,
+        "description": "Este juego de sábanas de algodón suave y transpirable incluye sábanas bajeras, funda de almohada y funda nórdica. Disponible en varios tamaños y colores.",
+        "category": "Hogar",
+        "subcategory": "Ropa de cama",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_711726-MLC49449144019_032022-O.webp",
+        "rating": {
+          "rate": 4.7,
+          "count": 180
+        },
+        "marca": "CottonDream"
+      },
+      {
+        "id": 16,
+        "title": "Juego de ollas",
+        "price": 149.99,
+        "description": "Este juego de ollas y sartenes antiadherentes es perfecto para cocinar una variedad de comidas. Son duraderos, fáciles de limpiar y vienen con tapas a juego.",
+        "category": "Hogar",
+        "subcategory": "Cocina",
+        "image": "https://staticar.natura.com/cdn/ff/KhNmcJeCLKI94hUgYHwyeGzFCzOMgq7QQUb5YWrDYWA/1699237267/public/products/577049_1_2.jpg",
+        "rating": {
+          "rate": 4.6,
+          "count": 210
+        },
+        "marca": "ChefMaster"
+      },
+      {
+        "id": 17,
+        "title": "Lámpara de pie moderna",
+        "price": 89.99,
+        "description": "Esta lámpara de pie moderna agrega iluminación ambiental y un toque de estilo a tu hogar. Viene con una pantalla de tela y un diseño elegante.",
+        "category": "Hogar",
+        "subcategory": "Iluminación",
+        "image": "https://b096bp98.tinifycdn.com/631445-thickbox_default/lampara-de-pie-curva-cobre-con-pantalla-rosa-viejo-forza-forme.jpg?resize.width=712",
+        "rating": {
+          "rate": 4.5,
+          "count": 160
+        },
+        "marca": "EleganceLight"
+      },
+      {
+        "id": 18,
+        "title": "Juego de toallas",
+        "price": 39.99,
+        "description": "Este juego de toallas de lujo incluye toallas de baño, toallas de mano y toallas faciales de alta calidad. Son suaves, absorbentes y duraderas.",
+        "category": "Hogar",
+        "subcategory": "Baño",
+        "image": "https://sanchezhogar.es/wp-content/uploads/2020/12/panama-B.png",
+        "rating": {
+          "rate": 4.7,
+          "count": 190
+        },
+        "marca": "LuxuryBath"
+      },
+      {
+        "id": 19,
+        "title": "Jabón de Baño Aromático",
+        "price": 9.99,
+        "description": "Disfruta de la experiencia de bañarte con este jabón de baño aromático. Infunde tu ducha con fragancias relajantes y deja tu piel suave y fresca.",
+        "category": "Hogar",
+        "subcategory": "Baño",
+        "image": "https://juleriaque.vtexassets.com/arquivos/ids/207783-800-auto?v=638085784537900000&width=800&height=auto&aspect=true",
+        "rating": {
+          "rate": 4.6,
+          "count": 150
+        },
+        "marca": "AromaSpa"
+      }
+
+]

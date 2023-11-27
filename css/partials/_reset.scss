@@ -15,3 +15,36 @@ body {
     flex-direction: column;
 
 }
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+body::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #279d2e;
+    border-radius: 10px;
+    border: 2px solid #f1f2f3;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.nproductos{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #279d2e;
+}

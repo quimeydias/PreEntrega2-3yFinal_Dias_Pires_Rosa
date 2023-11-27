@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body id="body">
 
 
     <nav class="nav">
@@ -23,32 +23,33 @@
             </div>
 
             <div class="estilosBuscador">
-                <input class="buscador" type="text" placeholder="Buscá productos, categorías, marcas ...">
-                <button class="lupa"></button>
+                <form action="html/verTodosLosProductos.html" method="get">
+                    <input class="buscador" name="buscar" type="text"
+                        placeholder="Buscá productos, categorías, marcas ..." required>
+                    <button class="lupa"></button>
+                </form>
+
+                <div class="seleccionados" id="seleccionados">
+                    <div class="seccionP" id="seccionP"></div>
+                </div>
+
+
             </div>
 
             <a href="html/login.html" class="log">
                 <p class="imgLog"></p>
             </a>
 
-            <div class="carrito">
-                <p class="imgCarrito"></p>
-            </div>
+            <a href="html/carrito.html" class="carrito">
+                <div class="imgCarrito">
+                    <div id="numeroProductos"></div>
+                </div>
+            </a>
 
 
         </div>
 
-        <div class="navCategorias">
 
-            <a href="html/verTodosLosProductos.html" class="nCategoria">Tecnología</a>
-            <a href="html/verTodosLosProductos.html" class="nCategoria">Electro hogar</a>
-            <a href="html/verTodosLosProductos.html" class="nCategoria">Juguetería y Bebés</a>
-            <a href="html/verTodosLosProductos.html" class="nCategoria">Moda</a>
-            <a href="html/verTodosLosProductos.html" class="nCategoria">Hogar y deco</a>
-            <a href="html/verTodosLosProductos.html" class="nCategoria">Deportes y hobbies</a>
-            <a href="html/verTodosLosProductos.html" class="nCategoria ulti">Salud y Belleza</a>
-
-        </div>
 
     </nav>
 
@@ -88,33 +89,45 @@
 
         <div class="contenedorCategorias">
 
-            <a href="html/verTodosLosProductos.html" class="tarjetaCategoria">
-                <div class="textoCategoria">Celulares y Tablets</div>
-                <div class="imgCategoria" style="background-image: url(https://images.milenio.com/d-7Hwq2Aj4-ehslYMt6bkLerM_M=/345x237/uploads/media/2013/12/23/las-tablets-son-de-los.jpeg);"></div>
+            <a href="html/verTodosLosProductos.html?categoria=Electrodomesticos" class="tarjetaCategoria">
+                <div class="textoCategoria">Electrodomesticos</div>
+                <div class="imgCategoria"
+                    style="background-image: url(https://images.milenio.com/d-7Hwq2Aj4-ehslYMt6bkLerM_M=/345x237/uploads/media/2013/12/23/las-tablets-son-de-los.jpeg);">
+                </div>
             </a>
-            <a href="html/verTodosLosProductos.html" class="tarjetaCategoria">
+            <a href="html/verTodosLosProductos.html?categoria=Deportes" class="tarjetaCategoria">
                 <div class="textoCategoria">Deportes</div>
-                <div class="imgCategoria"style="background-image: url(https://img.lagaceta.com.ar/fotos/notas/2023/08/13/1200x680_pesas-o-ejercicio-aerobico-cual-metodo-mas-eficaz-para-quemar-grasa-1002440-113742.webp);"></div>
+                <div class="imgCategoria"
+                    style="background-image: url(https://img.lagaceta.com.ar/fotos/notas/2023/08/13/1200x680_pesas-o-ejercicio-aerobico-cual-metodo-mas-eficaz-para-quemar-grasa-1002440-113742.webp);">
+                </div>
             </a>
-            <a href="html/verTodosLosProductos.html" class="tarjetaCategoria">
+            <a href="html/verTodosLosProductos.html?categoria=Gaming" class="tarjetaCategoria">
                 <div class="textoCategoria">Gaming</div>
-                <div class="imgCategoria"style="background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/07/accesorios-gaming-3084392.jpg?tf=3840x);"></div>
+                <div class="imgCategoria"
+                    style="background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/07/accesorios-gaming-3084392.jpg?tf=3840x);">
+                </div>
             </a>
             </a>
-            <a href="html/verTodosLosProductos.html" class="tarjetaCategoria">
+            <a href="html/verTodosLosProductos.html?categoria=Herramientas" class="tarjetaCategoria">
                 <div class="textoCategoria">Herramientas</div>
-                <div class="imgCategoria" style="background-image: url( https://images.adsttc.com/media/images/638a/2c19/026c/6a01/70fd/b28f/newsletter/guia-de-equipamiento-para-la-construccion-herramientas-equipos-y-maquinarias_30.jpg?1669999681);"></div>
+                <div class="imgCategoria"
+                    style="background-image: url( https://images.adsttc.com/media/images/638a/2c19/026c/6a01/70fd/b28f/newsletter/guia-de-equipamiento-para-la-construccion-herramientas-equipos-y-maquinarias_30.jpg?1669999681);">
+                </div>
             </a>
-            <a href="html/verTodosLosProductos.html" class="tarjetaCategoria">
+            <a href="html/verTodosLosProductos.html?categoria=Hogar" class="tarjetaCategoria">
                 <div class="textoCategoria">Hogar</div>
-                <div class="imgCategoria" style="background-image: url( https://media.admagazine.com/photos/618a668ab94700461d6213eb/master/w_1600%2Cc_limit/68287.jpg);"></div>
+                <div class="imgCategoria"
+                    style="background-image: url( https://media.admagazine.com/photos/618a668ab94700461d6213eb/master/w_1600%2Cc_limit/68287.jpg);">
+                </div>
             </a>
 
-            <a href="html/verTodosLosProductos.html" class="tarjetaCategoria">
+            <a href="html/verTodosLosProductos.html?categoria=Jugueteria" class="tarjetaCategoria">
                 <div class="textoCategoria">Juguetería</div>
-                <div class="imgCategoria" style="background-image: url(https://estaticos-cdn.prensaiberica.es/clip/5677ffa9-448a-4f7f-b099-de464262c9c4_16-9-discover-aspect-ratio_default_0.jpg);"></div>
+                <div class="imgCategoria"
+                    style="background-image: url(https://estaticos-cdn.prensaiberica.es/clip/5677ffa9-448a-4f7f-b099-de464262c9c4_16-9-discover-aspect-ratio_default_0.jpg);">
+                </div>
             </a>
-            
+
         </div>
 
     </section>
@@ -187,8 +200,12 @@
 
     </footer>
 
-    <script src="js/productos.js"></script>
-    <script src="js/java.js"></script>
+
+
+    <script src="js/funciones.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/buscadorProductos.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>
