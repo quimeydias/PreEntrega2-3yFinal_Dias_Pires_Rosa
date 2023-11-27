@@ -1,5 +1,11 @@
 // Realizar una solicitud fetch para obtener los datos del archivo productos.json
-fetch('../json/productos.json')
+    if (URLactual.includes("index.html")) {
+        link = "json/";
+    } else {
+        link = "../json/";
+    }
+
+fetch(link+'json/productos.json')
     .then(response => response.json())
     .then(data => {
         // Limpiar la lista de productos y llenarla con los datos obtenidos
